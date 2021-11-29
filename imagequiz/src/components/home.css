@@ -1,0 +1,24 @@
+.pic-container {
+    overflow: hidden;
+}
+
+.pic-container .pic-card {
+    float: left;
+    height: 14rem;
+    margin: 1rem;
+    width: 15rem;
+}
+
+.pic-container .pic-card .card-img-box {
+    height: 10rem;
+    border-bottom: 1px solid #eee;
+}
+
+.pic-container .pic-card .card-img-box .card-img {
+    max-width: 15rem;
+    max-height: 10rem;
+}
+
+.pic-container .pic-card .card-body {
+    height: 4rem;
+}
