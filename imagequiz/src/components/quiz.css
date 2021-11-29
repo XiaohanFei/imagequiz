@@ -1,0 +1,27 @@
+.quiz-card {
+    margin: 2rem;
+}
+
+.quiz-card img {
+    display: block;
+    margin: 0 auto;
+}
+
+.quiz-card .quiz-radio {
+    margin-top: 1rem;
+}
+
+.quiz-form {
+    text-align: center;
+}
+
+.score {
+    position: fixed;
+    left: 10rem;
+    bottom: 2rem;
+    display: inline-block;
+    width: 10rem;
+    height: 1rem;
+    color: red;
+    font-weight: bold;
+}

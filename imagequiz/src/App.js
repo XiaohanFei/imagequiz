@@ -2,6 +2,7 @@ import Home from './components/Home';
 import Register from './components/Register';
 import Menu from './components/Menu';
 import Login from './components/Login';
+import Quiz from './components/Quiz';
 import {
   HashRouter,
   Routes,
@@ -19,19 +20,20 @@ function App() {
         </Row>
 
         <Row>
-          <Col><Menu/> </Col>
+          <Col><Menu /> </Col>
         </Row>
-        </Container>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Login" element={<Login />} />
-          <Route path="/Register" element={<Register />} />
-        </Routes>
-        <Container fluid>
+      </Container>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Login" element={<Login />} />
+        <Route path="/Register" element={<Register />} />
+        <Route path="/Quiz/:quid" element={<Quiz />} />
+      </Routes>
+      <Container fluid>
         <Row>
           <Col>This is footer </Col>
-        </Row>   
-        </Container>     
+        </Row>
+      </Container>
     </HashRouter>
   );
 }

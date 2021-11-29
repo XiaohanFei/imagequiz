@@ -7,6 +7,11 @@
     height: 14rem;
     margin: 1rem;
     width: 15rem;
+    cursor: pointer;
+}
+
+.pic-container .pic-card:hover {
+    transform: scale(1.02);
 }
 
 .pic-container .pic-card .card-img-box {
