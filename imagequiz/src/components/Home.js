@@ -12,7 +12,7 @@ const Home = () => {
     console.log(data);
     return (
         <>
-            <p>Hello This is home Page!logged in customers is </p>
+            <p>Hello This is home Page!!!logged in customers is </p>
             <div className='pic-container'>
                 {flowers.map((item, index) => (
                     <Card cs={6} className='pic-card' onClick={() => { window.location.href = `/#/Quiz/${index}` }}>
